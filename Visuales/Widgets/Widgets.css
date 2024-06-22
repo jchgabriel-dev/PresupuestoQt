@@ -1,0 +1,30 @@
+QWidget#WidgetSuperior {
+    background-color: #3956C0;
+}
+
+QWidget#WidgetTab {
+    background-color: #c5c7ce;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+QWidget#WidgetSubSeccion {
+    background-color: #adadad;
+
+}
+
+QWidget#WidgetLateralR {
+    background-color: #e0eaf9;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+QWidget#WidgetLateralL {
+    background-color: #f8f8f8;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+

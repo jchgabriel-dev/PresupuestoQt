@@ -1,0 +1,124 @@
+QToolButton#BotonBar {
+    background-color: #F4F4F4;
+    font-size: 12px;
+    border: transparent;
+    text-align: left;
+    padding-left: 5px;
+    color: #262626;
+    height: 30px;
+
+}
+
+QToolButton#BotonBar:hover {
+    background-color: #D6D6D6;
+}
+
+QToolButton#BotonBar:pressed {
+    background-color: #C6C6C6;
+}
+
+
+QPushButton#BotonIcono {
+    background-color: #dcdcdc;
+    border: transparent;
+    height: 30px;
+}
+
+QPushButton#BotonIcono:hover {
+    background-color: #bdbdbd;
+}
+
+QPushButton#BotonIcono:pressed {
+    background-color: #989898;
+}
+
+
+
+QPushButton#BotonElementoH {
+    background-color: #dcdcdc;
+    border: transparent;
+    height: 28px;
+    font-size: 12px;
+    padding: 0px 7px;
+
+}
+
+QPushButton#BotonElementoH:hover {
+    background-color: #bdbdbd;
+}
+
+QPushButton#BotonElementoH:pressed {
+    background-color: #989898;
+}
+
+
+QPushButton#BotonElementoV {
+    background-color: #e0eaf9;
+    border: transparent;
+    height: 25px;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+QPushButton#BotonElementoV:hover {
+    background-color: #c8daf5;
+}
+
+QPushButton#BotonElementoV:pressed {
+    background-color: #76a2e4;
+}
+
+
+
+QPushButton#BotonElementoVAlt {
+    background-color: #f8f8f8;
+    border: transparent;
+    height: 25px;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+QPushButton#BotonElementoVAlt:hover {
+    background-color: #dcdcdc;
+}
+
+QPushButton#BotonElementoVAlt:pressed {
+    background-color: #bdbdbd;
+}
+
+QPushButton#BotonAccionSub {
+    color: #3956C0;
+    background-color: #FFFFFF;
+    border: 2px solid #3956C0;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+QPushButton#BotonAccionSub:hover {
+    text-decoration: underline;
+}
+
+QPushButton#BotonAccionSub:pressed {
+    background-color: #DDDDDD;
+}
+
+QPushButton#BotonAccionMain {
+    color: #FFFFFF;
+    background-color: #3956C0;
+    border: 2px solid #3956C0;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+QPushButton#BotonAccionMain:hover {
+    background-color: #33469a;
+    border: 2px solid #33469a;
+}
+
+QPushButton#BotonAccionMain:pressed {
+    background-color: #2e3e7a;
+    border: 2px solid #2e3e7a;
+
+}

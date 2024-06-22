@@ -1,0 +1,96 @@
+QTableView#TablaEstandar {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    background: #FFFFFF;
+    border: transparent;
+
+}
+
+QTableView#TablaEstandar:item:selected {
+    background-color: #3956C0;
+    color: white;
+    border: transparent;
+}
+
+
+QTableView#TablaEstandar QScrollBar:vertical {
+    background-color: #ffffff;
+    width: 17px;
+    margin: 20px 4px;
+    border: 1px transparent #ffffff;
+    border-radius: 4px;
+}
+
+QTableView#TablaEstandar QScrollBar:handle:vertical{
+    background-color: #C8C8C8;
+    min-height: 5px;
+    border-radius: 4px;
+}
+
+QTableView#TablaEstandar QScrollBar:sub-line:vertical {
+     margin: 3px 0px 3px 0px;
+     border-image: url(Iconos/arribaTabla.png);
+     height: 15px;
+     width: 15px;
+     subcontrol-position: top;
+     subcontrol-origin: margin;
+}
+
+QTableView#TablaEstandar QScrollBar:add-line:vertical {
+    margin: 3px 0px 3px 0px;
+    border-image: url(Iconos/abajoTabla.png);
+    height: 15px;
+    width: 15px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QTableView#TablaEstandar QScrollBar:up-arrow:vertical, QTableView#TablaEstandar QScrollBar:down-arrow:vertical {
+    background: none;
+}
+
+QTableView#TablaEstandar QScrollBar::add-page:vertical, QTableView#TablaEstandar QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+
+QTableView#TablaEstandar QScrollBar:horizontal {
+    height: 17px;
+    margin: 4px 20px;
+    border: 1px transparent #ffffff;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+QTableView#TablaEstandar QScrollBar:handle:horizontal {
+    background-color: #C8C8C8;
+    min-width: 5px;
+    border-radius: 4px;
+}
+
+QTableView#TablaEstandar QScrollBar:add-line:horizontal {
+    margin: 0px 3px 0px 3px;
+    border-image: url(Iconos/derechaTabla.png);
+    width: 15px;
+    height: 15px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QTableView#TablaEstandar QScrollBar:sub-line:horizontal {
+    margin: 0px 3px 0px 3px;
+    border-image: url(Iconos/izquierdaTabla.png);
+    height: 15px;
+    width: 15px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+
+QTableView#TablaEstandar QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal {
+    background: none;
+}
+
+QTableView#TablaEstandar QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}

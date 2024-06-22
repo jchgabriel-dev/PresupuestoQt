@@ -1,0 +1,11 @@
+QToolBar#ToolbarPrincipal {
+    background-color: #F3F3F3;
+    padding: 0px;
+
+}
+
+QToolBar#ToolbarSub {
+    background-color: #dcdcdc;
+    padding: 0px;
+
+}

@@ -1,0 +1,107 @@
+QLineEdit#LineElemento {
+    border: 2px solid #2e3e7a;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+QLineEdit#LineForm {
+    border: 1px solid #2e3e7a;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+QLineEdit#LineForm:hover {
+    background-color: #c8daf5;
+}
+
+QLineEdit#LineForm:focus {
+    background-color: #ffffff;
+    border: 2px solid #2e3e7a;
+}
+
+QLineEdit#LineFormIcon {
+    border: 1px solid #2e3e7a;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+QLineEdit#LineFormIcon:hover {
+    background-color: #c8daf5;
+}
+
+QLineEdit#LineFormIcon:focus {
+    background-color: #ffffff;
+    border: 2px solid #2e3e7a;
+}
+
+QCheckBox#CheckForm {
+    color: #2e3e7a;
+    font-size: 12px;
+}
+
+
+QDateTimeEdit#TimeForm {
+    border: 1px solid #2e3e7a;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+QDateTimeEdit#TimeForm:down-arrow {
+    image: url(Iconos/abajoScroll.png);
+    height:15px;
+	width:15px;
+}
+
+QDateTimeEdit#TimeForm:drop-down {
+	background-color: #3956C0;
+	width:22px;
+}
+
+QDateTimeEdit#TimeForm:hover {
+    background-color: #c8daf5;
+}
+
+QDateTimeEdit#TimeForm:focus {
+    background-color: #ffffff;
+    border: 2px solid #2e3e7a;
+}
+
+QCalendarWidget#CalendarForm {
+    background-color: #cdd4ff;
+    color: red;
+}
+
+
+QCalendarWidget#CalendarForm QWidget#qt_calendar_navigationbar {
+    background-color: #3956C0;
+
+}
+
+
+QCalendarWidget#CalendarForm QWidget#qt_calendar_prevmonth {
+    qproperty-icon: url(Iconos/anterior.png);
+    icon-size: 22px;
+}
+QCalendarWidget#CalendarForm QWidget#qt_calendar_nextmonth {
+    qproperty-icon: url(Iconos/siguiente.png);
+    icon-size: 22px;
+}
+
+
+QCalendarWidget#CalendarForm QToolButton:hover {
+    color: #ffffff;
+    border: transparent;
+    background-color: #22328d;
+
+}
+
+QCalendarWidget#CalendarForm QToolButton:pressed {
+    color: #ffffff;
+    border: transparent;
+    background-color: #141c52;
+}
+
+QCalendarWidget#CalendarForm QAbstractItemView {
+    selection-background-color: #3956C0;
+}
+
